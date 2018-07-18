@@ -1,4 +1,5 @@
----Lunch Receipt REST API Project: Instructions---
+# Lunch Receipt REST API Project: Instructions
+
 ---Implemented by Igor Maltsev, Jun 15 2018---
 
 The Project is based on a Spring BOOT framework
@@ -6,17 +7,17 @@ Two types of access implemented:
 for the current date (today): **http://localhost:8080/lunch** 
 for any selected date (example): **http://localhost:8080/lunch?day=2018-06-07** 
 
-Technologies:
+## Technologies:
+
     - Java version: 1.8.0_162-b12
     - Maven version: Apache Maven 3.5.3
     - IntelliJ Idea
 
-Tech Requirements:
+##Tech Requirements:
 JDK and Maven of the above specified versions (or similar).
-
 The Application gets compiled and started with the Maven commands.
 
-Commands:
+-Commands:
 To compile the Application in \lunch, run: '**mvn clean install**' (compiled in project)
 To start the Application (with compilation), run the Spring BOOT server in ..\lunch in the Console:
 '**mvn spring-boot:run**' or **..\lunch\target>java -jar lunch-0.0.1-SNAPSHOT.jar**.
@@ -26,7 +27,8 @@ Or use the below GET requests to test:
 http://localhost:8080/lunch
 http://localhost:8080/lunch?day=2018-06-07
 
-Developer Notes:
+## Developer Notes:
+
 - As specified above, the way the Project is implemented, the receipts for the current date
 are taken by default - with the '/lunch' endpoint. The other option - 
 to use a customised date - is also implemented (as exemplified above '/lunch?day=2018-06-07' )
