@@ -1,9 +1,9 @@
-package com.rezdy.lunch.services;
+package com.im.lunch.services;
 
-import com.rezdy.lunch.dao.LunchDAO;
-import com.rezdy.lunch.domain.Ingredient;
-import com.rezdy.lunch.domain.Receipt;
-import com.rezdy.lunch.domain.ReceiptsCollection;
+import com.im.lunch.dao.LunchDAO;
+import com.im.lunch.domain.ReceiptsCollection;
+import com.im.lunch.domain.Ingredient;
+import com.im.lunch.domain.Receipt;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

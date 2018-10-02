@@ -1,4 +1,4 @@
-package com.rezdy.lunch;
+package com.im.lunch;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,7 +1,7 @@
-package com.rezdy.lunch.controllers;
+package com.im.lunch.controllers;
 
-import com.rezdy.lunch.domain.ReceiptsCollection;
-import com.rezdy.lunch.services.LunchReceiptsService;
+import com.im.lunch.domain.ReceiptsCollection;
+import com.im.lunch.services.LunchReceiptsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.RequestMapping;

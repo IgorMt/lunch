@@ -1,4 +1,4 @@
-package com.rezdy.lunch.domain;
+package com.im.lunch.domain;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 

@@ -1,7 +1,7 @@
-package com.rezdy.lunch.dao;
+package com.im.lunch.dao;
 
-import com.rezdy.lunch.domain.Ingredient;
-import com.rezdy.lunch.domain.Receipt;
+import com.im.lunch.domain.Ingredient;
+import com.im.lunch.domain.Receipt;
 
 import java.time.LocalDate;
 import java.util.List;

@@ -1,11 +1,11 @@
-package com.rezdy.lunch.dao.impl;
+package com.im.lunch.dao.impl;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.rezdy.lunch.dao.LunchDAO;
-import com.rezdy.lunch.domain.Ingredient;
-import com.rezdy.lunch.domain.IngredientsCollection;
-import com.rezdy.lunch.domain.Receipt;
-import com.rezdy.lunch.domain.ReceiptsCollection;
+import com.im.lunch.dao.LunchDAO;
+import com.im.lunch.domain.Ingredient;
+import com.im.lunch.domain.IngredientsCollection;
+import com.im.lunch.domain.Receipt;
+import com.im.lunch.domain.ReceiptsCollection;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
@@ -30,7 +30,6 @@ import java.util.stream.Collectors;
 public class LunchDAOImpl implements LunchDAO {
 
     private static final Logger log = LoggerFactory.getLogger(LunchDAOImpl.class);
-
     private final ObjectMapper mapper = new ObjectMapper();
 
     @Value("${receipts.file.name}")
